@@ -939,6 +939,7 @@
         const profile = readDesignerFormToProfile();
         mutator(profile);
         designerProfiles[key] = sanitizeDesignerProfile(profile);
+        saveDesignerProfilesToStorage();
         if (options.renderCustomDataInputs !== false) renderCustomDataInputs();
         renderSignature();
     }
