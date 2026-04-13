@@ -43,6 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Generador de firma de correo</title>
+    <link rel="icon" type="image/png" href="<?= e(asset_url('img/logo-hbv.png')) ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?= e(asset_url('assets/css/app.css')) ?>" rel="stylesheet">
 </head>
